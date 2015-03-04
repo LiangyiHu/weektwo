@@ -2,8 +2,7 @@
 ## calculate the inverse matrix of x, first pass x through makecachematrix function,
 ## store the value, then pass the cached value to cachesolve to get the inverse matrix of x
 
-## This function provides a list containing four functions, do some pretreatment for
-## Second function
+## This function provides a list containing four functions, do some pretreatment for Second function
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
